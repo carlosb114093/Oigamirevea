@@ -1361,6 +1361,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   speed: 5
+  jumpForce: 4
+  groundCheck: {fileID: 0}
+  groundRadious: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!70 &9176847641215592016
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
